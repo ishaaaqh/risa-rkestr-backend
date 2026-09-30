@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.risa</groupId>
-	<artifactId>rkestr</artifactId>
+	<artifactId>risa-rkestr-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>rkestr</name>
 	<description>Rkestr Work Orchestration Platform</description>
@@ -69,6 +69,12 @@
 			<artifactId>archunit-junit5</artifactId>
 			<version>1.4.1</version>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
